@@ -1,0 +1,17 @@
+{
+  "name": "1step-shortcut",
+  "version": "1.0.0",
+  "description": "this is the one step shortcut project ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oswm"
+  ],
+  "author": "sanket",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

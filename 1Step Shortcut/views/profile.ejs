@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+</head>
+<body>
+    <h1>Profile Page</h1>
+    <% if (userData) { %>
+        <p>User ID: <%= userData._id %></p>
+        <!-- Add other user data fields as needed -->
+    <% } else { %>
+        <p>User not found</p>
+    <% } %>
+</body>
+</html>

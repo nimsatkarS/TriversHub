@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-QD5Y+BpJi6zMOsLQh3Jv8CFkdI7LNpH8xKEJylu9/c/WFIV0CCFAMm53Pv60UDv" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>User Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ecf0f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    main:hover {
+      transform: scale(1.02);
+    }
+
+    .profile-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-icon {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #3498db;
+      margin-bottom: 30px;
+    }
+
+    .user-name {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    .user-email {
+      color: #555;
+      font-style: italic;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .social-icon {
+      font-size: 2rem;
+      margin: 0 15px;
+      color: #3498db;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .social-icon:hover {
+      color: #2c3e50;
+    }
+    .fa-solid{
+       font-size: 142px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>User Profile</h1>
+  </header>
+
+  <main>
+    <div class="profile-section">
+      <i class="fa-solid fa-user"></i>
+      <!-- <img src="path/to/profile-icon.jpg" alt="Profile Icon" class="profile-icon"> -->
+      <div class="user-name">Shreayensh Watekar</div>
+      <div class="user-email">Shreayensh@example.com</div>
+      <div class="user-comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, voluptates!</div>
+    </div>
+
+    <div class="social-icons">
+      <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+
+    <!-- Add more sections for additional profile information if needed -->
+
+  </main>
+
+</body>
+</html>
